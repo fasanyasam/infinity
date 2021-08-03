@@ -1,0 +1,138 @@
+main{
+    text-align: center;
+    height: 100%;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.sign-in, .image-section, .sign-up{
+    padding: 5%;
+}
+
+.logo{
+    color: #073288;
+}
+
+.image-section{
+    background-image: url(../img/bg-img.png) ;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);   
+    background-blend-mode: overlay;
+    background-position: center;
+    height: 100vh;
+    padding-top: 15%;
+}
+
+.btn{
+    background-color: #073288;
+    padding: 10px 50px ;
+    color: white;
+}
+
+.btn:hover {
+    color: #073288;
+    background-color: white;
+    border: solid 1px #073288;
+};
+
+.sign-up{
+    padding: 5%;
+}
+.sign-up p{
+    font-size: .9em;
+}
+
+.label{
+    display: block;
+    text-align: left;
+}
+input::placeholder{
+    padding-left: 35px;
+    font-size: 1em;
+}
+
+i{
+    color: #797676bb;
+    position: relative;
+    right: 40%;
+    bottom: 30%
+}
+
+.welcome-bg{
+    color: white;
+    background-image: url(../img/bg-img.png) ;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);   
+    background-blend-mode: overlay;
+    background-position: center;
+    height: 100vh;
+    padding-top: 15%;
+}
+.sign-in .fas{
+    position: relative;
+    right: 45%;
+    top: 2em;
+}
+.welcome-bg h1 {
+    font-size: 5rem;
+}
+
+.welcome-bg img{
+    margin-top: 20px;
+}
+
+.welcome-bg p{
+    margin: auto;
+    font-size: 1.2rem;
+    width: 60%;
+    text-align: center;
+}
+
+.btn a{
+    color: rgba(255, 255, 255, 0.952);
+    padding: 0
+}
+
+
+@media (max-width:600px) {
+    .image-section{
+        display:none;
+    }
+    .sign-in, .sign-up{
+        background-image: url(../img/bg-img.png);
+        color: rgba(218, 218, 218, 0.712);
+        background-size: cover;
+        background-color: rgba(141, 140, 140, 0.473);   
+        background-blend-mode: overlay;
+        background-position: center;
+        height: 100vh;
+        padding-top: 20%;
+    }
+    .mobile-frame{
+        background-color: rgba(255, 255, 255, 0.473);
+        background-blend-mode: overlay;
+        background-position: center;
+        padding: 20% 10%;
+        color: #000;
+        font-size: 1rem;
+        border-radius: 50px;
+        
+    }
+    .logo span{
+        display: block;
+        margin: auto;
+    }
+    .logo span img{
+        width: 15%;
+    }
+    .mobile-welcome{
+        padding: 30% 3%;
+        font-size: 2rem;
+    }
+    .mobile-welcome p{
+        font-size: 1rem;
+        width: 80%;
+
+    }
+
+}
